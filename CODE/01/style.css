@@ -1,0 +1,129 @@
+* {
+    pad: 0px;
+    margin: 0px;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    background-color: #2B1125;
+}
+
+a {
+    color: #e4e8f3;
+    text-decoration: none;
+    margin: 10px;
+    font-size: 24px;
+    padding-left: 20px;
+}
+
+.sectionHero {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px;
+    height: 520px;
+    background-color: #2B1125;
+}
+
+img {
+    width: 600px;
+    height: auto;
+}
+
+h1 {
+    font-size: 64px;
+    text-align: center;
+    color: #e4e8f3;
+}
+
+.sobre {
+    display: flex;
+    flex-direction: column;
+    padding: 40px 20px;
+    align-items: center;
+    height: 420px;
+    justify-content: space-around;
+    background-color: #e4e8f3;
+}
+
+.sobre1, .sobre2 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.titulosobre {
+    font-size: 32px;
+}
+
+.psobre {
+    font-size: 23px;
+    text-align: center;
+}
+
+.sectionModalidades {
+    display: flex;
+    flex-direction: column;
+    height: 520px;
+    padding: 40px 20px;
+    background-color: #2b1125;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.tituloModalidade {
+    color: #101509;
+    font-size: 32px;
+    text-align: center;
+
+}
+
+.cards {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.cardModalidades {
+    display: flex;
+    flex-direction: column;
+    background-color: #e4e8f3;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 8px;
+    width: 350px;
+    height: 350px;
+    justify-content: space-evenly;
+
+
+}
+
+
+.pCards {
+    font-size: 23px;
+    text-align: center;
+}
+
+.funcionamento {
+    display: flex;
+    flex-direction: row;
+    height: 150px;
+    padding: 20px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #e4e8f3;
+    color: #2b1125;
+}
+
+footer {
+    background-color: #2B1125;
+    color: #e4e8f3;
+    height: 10px;
+    padding: 20px;
+    text-align: center;
+}

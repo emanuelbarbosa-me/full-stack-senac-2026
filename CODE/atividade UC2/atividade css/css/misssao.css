@@ -1,0 +1,27 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: blue;
+    font-size: 20px;
+    padding: 40px;
+    background-color: brown;
+    text-align: center;
+}
+
+p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(74, 0, 143);
+    font-size: 24px;
+    padding: 20px;
+    background-color: cadetblue;
+    text-align: justify;
+    margin-bottom: 30px;
+}
+
+body {
+    background-color: chartreuse;
+}

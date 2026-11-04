@@ -1,0 +1,29 @@
+REQUISITOS FUNCIONAIS
+
+RF 01: o recepcionista podera cadastrar pacientes
+RF 02: o site deverar mostra os planos e consultas
+RF 03: o usuario(paciente) deve conseguir agendar uma consulta
+RF 04: o usuario(medicos/paciente) deve conseguir visualizar os horarios de agendaentos das consultas
+RF 05: o usuario devera conseguir entrar em contato por whatsapp
+RF 06: o site devera apresentar informacoes sobre os profissionais
+
+REQUISITOS NAO FUNCIONAIS
+
+RNF 01: reponsividade para mobile first
+RNF 02: paginas que carregam ate 3s
+RNF 03: um site funcional a todos os navegadore.
+
+HISTORIADE USO
+
+1: como paciente quero ver minhas consultas agendadas.
+exibir situação: marcado/pendente/indisponives
+
+2: como recepcionista quero cadastrar novos pacientes no sistema e manter as informações atualizadas.
+cadastrado, nao cadastrado
+
+3: como médico quer ver os agendamentos de consutas para meu consultorio 
+exibir situação: marcado/cancelado
+
+
+
+

@@ -1,0 +1,54 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+section { 
+    margin-left: 200px;
+    height: 400px;
+    width: 800px;
+    border: 2px solid black;
+    position: relative;
+
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.dv1 {
+    background-color: blue;
+    width: 150px;
+    height: 150px;
+    display: inline-block;
+    margin: 10px;
+}
+
+.dv2 {
+    background-color: red;
+    width: 150px;
+    height: 150px;
+    display: inline-block;
+    margin: 10px;
+}
+
+.dv3 {
+    background-color: green;
+    width: 150px;
+    height: 150px;
+    display: inline-block;
+    margin: 10px;
+    position: sticky;
+    top: 0px;
+}
+
+
+.whats {
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+    background: green;
+    color: white;
+    text-align: center;
+    position: fixed;
+    left: 1150px;
+}

@@ -88,3 +88,9 @@ p {
 .Menu a:hover{
     border-bottom: 5px solid rgb(153, 4, 4);
 }
+
+.testando {
+    
+    display: inline-block;
+    justify-items: center;
+}

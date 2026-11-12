@@ -1,0 +1,90 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+header {
+    width: 100%;
+    height: 60px;
+    background-color: black;
+}
+header a {
+    color: white;
+    text-decoration: none;
+}
+header ul {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    padding: 20px;
+}
+.dropdrown { 
+    position: relative;
+}
+.dropdown-content { 
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: white;
+    width: 150px;
+    border-radius: 5px;
+    box-shadow: 0px 8px 16x, rgb(33 33 33);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    overflow: hidden;
+}
+.dropdrown:hover .dropdown-content {
+    display: block;
+    opacity: 1; 
+}
+.dropdown-content a {
+    display: block;
+    color: blueviolet;
+    font-size: 20px;
+    padding: 15px;
+    text-decoration: none;
+}
+ul { 
+    list-style: none;
+}
+.menu {
+    align-items: center;
+    justify-content: center;
+}
+.hero {
+    width: 100%;
+    height: 500px;
+    
+    justify-content: center;
+
+    display: flex;
+    justify-content: space-evenly;
+
+    background-image: url("woman-doing-squats-smith-machine.jpg");
+    position: absolute;
+}
+.hero h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 50px;
+    font-size: 80px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.imagens img{
+    width: auto;
+    height: 500px;
+    justify-content: center;
+    
+}
+
+
+
+
+
+
+
+
+

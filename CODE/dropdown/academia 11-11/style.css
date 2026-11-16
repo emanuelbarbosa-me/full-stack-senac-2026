@@ -63,7 +63,7 @@ ul {
     align-items: flex-start;
     padding: 50px;
     box-sizing: border-box;
-    background-image: linear-gradient(rgb(0,0,0,0.7), rgba(0,0,0,0.7)), url('/woman-doing-squats-smith-machine.jpg');
+    background-image: linear-gradient(rgb(0,0,0,0.7), rgba(0,0,0,0.7)), url('/CODE/dropdown/academia\ 11-11/woman-doing-squats-smith-machine.jpg');
     background-size: cover;
     background-position: center;
 
@@ -76,18 +76,71 @@ ul {
     line-height: 1.1;
     padding-bottom: 70px;
 }
-/*
-.imagens img{
-    width: 350px;
-    height: 500px;
-    justify-content: center;
+
+
+
+section {
+      display: block;
+      padding: 50px 20px;
+      text-align: center;
 }
 
 
+.secao-titulo {
+      display: block;
+      font-size: 26px;
+      margin-bottom: 30px;
+      text-transform: uppercase;
+}
+.card {
+      display: inline-block;
+      position: relative;
+      width: 280px;
+      margin: 15px;
+      padding: 30px 20px;
+      background: #fff;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      vertical-align: top;
+      text-align: center;
+    }
 
+    .card h3 {
+      display: block;
+      font-size: 22px;
+      margin-bottom: 15px;
+    }
 
+    .card .preco {
+      display: block;
+      font-size: 28px;
+      font-weight: bold;
+      color: #e63946;
+      margin-bottom: 15px;
+    }
 
+    .card p {
+      display: block;
+      font-size: 14px;
+      color: #666;
+      line-height: 1.5;
+    }
 
+    .badge-popular {
+      position: absolute;
+      top: 12px;
+      right: 15px;
+      background: #ffb703;
+      color: #000;
+      padding: 6px 12px;
+      font-size: 12px;
+      font-weight: bold;
+      border-radius: 20px;
+      z-index: 5;
+    }
 
-
-
+.float img{
+    width: 600px;
+    height: auto;
+    float: left;
+}

@@ -10,9 +10,12 @@ body {
 
 .navbar {
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
     background-color: white;
     padding: 10px 30px;
-    height: 70px;
+    height: 400px;
     box-shadow: 0 6px 8px rgba(0, 0, 0, 0.08);
 }
 
